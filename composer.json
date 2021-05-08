@@ -1,0 +1,18 @@
+{
+    "name": "tautiz/kcs_adomas",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tautvydas Dulskis",
+            "email": "tautvydas.dulskis@hostinger.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "KCS\\": "src/"
+        }
+    }
+}
